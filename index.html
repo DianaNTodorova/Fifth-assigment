@@ -9,7 +9,11 @@
     <script
       src="https://kit.fontawesome.com/695092cc13.js"
       crossorigin="anonymous"
-    ></script>
+    >
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </script>
   </head>
   <body>
     <header>
@@ -23,7 +27,10 @@
             <li>Resources</li>
           </ul>
         </nav>
-        <span><button>Sign In</button> <button>Sign Up</button></span>
+        <span
+          ><button class="button_sign-in">Sign In</button>
+          <button class="button_sign-up">Sign Up</button></span
+        >
       </div>
     </header>
     <main>
@@ -126,18 +133,23 @@
 
             <div>
               <img src="images/Rectangle.png" />
-              Never worry about overpaying for your energy again.
+              <span>Never worry about overpaying for your energy again.</span>
             </div>
             <div>
               <img src="images/Rectangle.png" />
 
-              We will only switch you to energy companies that we trust and will
-              treat you right
+              <span
+                >We will only switch you to energy companies that we trust and
+                will treat you right</span
+              >
             </div>
             <div>
               <img src="images/Rectangle.png" />
 
-              We track the markets daily and know where the savings are.
+              <span
+                >We track the markets daily and know where the savings
+                are.</span
+              >
             </div>
           </div>
         </div>
@@ -174,5 +186,26 @@
         </div>
       </selection>
     </main>
+    <footer class="footer_elements">
+      <div><img src="images/Logo.png" alt="company_logo" /></div>
+      <div class="footer-element_list">
+        <ul>
+          <li>About Us</li>
+          <li>Blog</li>
+          <li>Contact</li>
+          <li>FAQ</li>
+        </ul>
+        <ul>
+          <li>Disclaimer</li>
+          <li>Financing</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
+        </ul>
+      </div>
+      <div class="footer-element_sign">
+        <input /><br />
+        <button>Sign Up Now</button>
+      </div>
+    </footer>
   </body>
 </html>
