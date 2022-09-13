@@ -49,7 +49,7 @@ h3 {
 }
 .selection-3 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   position: relative;
   min-width: 1100px;
   width: 100%;
@@ -57,9 +57,18 @@ h3 {
 }
 .selection-4 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
   min-width: 1121px;
   width: 100%;
   min-height: 521px;
+}
+.selection-4_text_icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 486px;
+  width: 100%;
+  min-height: 427px;
 }
