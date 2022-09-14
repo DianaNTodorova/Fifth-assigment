@@ -190,7 +190,8 @@ h3 {
   max-width: 486px;
   min-width: 531px;
 }
-.selection-3_content b {
+.selection-3_content b,
+.selection-5_text b {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -229,6 +230,7 @@ h3 {
   font-size: 16px;
   line-height: 26px;
   color: #544837;
+  margin-top: 50px;
 }
 .selection-4_elements {
   display: flex;
@@ -260,6 +262,7 @@ h3 {
   max-width: 1110px;
   width: 100%;
   min-height: 609px;
+  margin-top: 50px;
 }
 .selection-5_text {
   display: flex;
@@ -272,10 +275,49 @@ h3 {
 .footer_elements {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-top: 1px solid #979797;
 }
 .footer-element_list {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .footer-element_sign {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.footer_button {
+  width: 131px;
+  height: 39px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff9900;
+  border: #ff9900;
+}
+.footer_input {
+  width: 325px;
+  height: 48px;
+}
+.footer_lists_1,
+.footer_lists_2 {
+  list-style-type: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #544837;
 }
